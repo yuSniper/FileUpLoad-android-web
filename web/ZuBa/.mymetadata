@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ZuBa"
+  id="myeclipse.1441284649730"
+  context-root="/ZuBa"
+  j2ee-spec="6.0"
+  archive="ZuBa.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

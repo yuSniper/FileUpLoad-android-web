@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.zuba.servlet.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.zuba.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>com.zuba.servlet.Update</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FileInOutputStream</servlet-name>
+    <servlet-class>com.zuba.servlet.FileInOutputStream</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TestUploadFile</servlet-name>
+    <servlet-class>com.zuba.test.TestUploadFile</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InsertPublish</servlet-name>
+    <servlet-class>com.zuba.servlet.InsertPublish</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InsertReply</servlet-name>
+    <servlet-class>com.zuba.servlet.InsertReply</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/servlet/Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileInOutputStream</servlet-name>
+    <url-pattern>/servlet/FileInOutputStream</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestUploadFile</servlet-name>
+    <url-pattern>/servlet/TestUploadFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertPublish</servlet-name>
+    <url-pattern>/servlet/InsertPublish</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertReply</servlet-name>
+    <url-pattern>/servlet/InsertReply</url-pattern>
+  </servlet-mapping>
+	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
